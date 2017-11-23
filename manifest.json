@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+
+	"name": "Cache cleaner",
+	"description": "This extension clean your cache, if you execute it.",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html",
+		"default_title": "Cach cleaner"
+	},
+
+	"permissions": [
+		"activeTab", 
+		"storage",
+		"browsingData"
+	],
+
+	 "author": "AlphaOtt3r"
+}
